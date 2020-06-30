@@ -1,0 +1,55 @@
+@media (max-width:900px){
+    .content{
+        margin: 32px 15%;
+    }
+    
+    
+    .cards{
+      
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .cards img{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:612px){
+    .content{
+        margin: 32px 15%;
+    }
+    .welcome{
+        padding: 10px;
+    }
+    .welcome-content{
+        flex-direction: column;
+    }
+
+    .menu{
+        margin-left: 60px;
+    }
+
+    .welcome content img{
+        width: 100%;
+
+    };
+    
+    
+    .cards img{
+        width: 100%;
+    }
+
+    .cards{
+        
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+    .close img{
+        width: 8%;
+        height: 8%;
+    }
+
+}
+
